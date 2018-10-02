@@ -25,8 +25,8 @@ class ImportGsheet:
         # Authorize the Spreedsheet
         gc = gspread.authorize(credentials)
 
-        # Define the spreadsheet to be used in the script.
-        spreadsheet = gc.open_by_url('https://docs.google.com/spreadsheets/d/1DkEi4DtUddq4BKIAJjna41toPhX8UKQSEs9-MxZinUM/edit#gid=0')
+        # Define the spreadsheet to be used in the script. Insert Spreadsheet URL below
+        spreadsheet = gc.open_by_url('SPREADSHEET_URL')
 
         return spreadsheet
 
